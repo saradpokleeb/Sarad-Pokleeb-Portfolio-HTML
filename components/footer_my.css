@@ -1,0 +1,103 @@
+.\#footer_my-footer {
+  height: 331px;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 26px;
+}
+.\#footer_my-separator {
+  width: 100%;
+  height: 2px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #D9D9D9;
+}
+.\#footer_my-top-part {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.\#footer_my-links-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.\#footer_my-product-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.\#footer_my-text {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.\#footer_my-text1 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.\#footer_my-link {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.\#footer_my-contact-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.\#footer_my-text3 {
+  color: var(--dl-color-scheme-brown);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.\#footer_my-text4 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.\#footer_my-separator1 {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: #D9D9D9;
+}
+.\#footer_my-max-width1 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.\#footer_my-image {
+  width: 100px;
+  height: 33px;
+  object-fit: cover;
+}
+
+@media(max-width: 767px) {
+  .\#footer_my-top-part {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .\#footer_my-links-container {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+    flex-direction: row;
+  }
+}
+@media(max-width: 479px) {
+  .\#footer_my-top-part {
+    align-items: center;
+    flex-direction: column;
+  }
+  .\#footer_my-contact-container {
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+  .\#footer_my-max-width1 {
+    flex-direction: column;
+  }
+}
